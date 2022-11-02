@@ -58,7 +58,8 @@ header-logo{width:200px;}
 .line2{right:85px;}
 .line3{right:165px;}
 .discount-offer{width:23%;height;position:relative;}
-.discount-offer img{width:100%;height:100%;}
+.discount-offer img{width:100%;height:100%;transition: transform 0.5s;}
+.discount-offer img:hover{transform:scale(1.1)}
 .wordin-img{position:absolute;top:20px;left:20px}
 .pargin-img{color: var(--maincolor);}
 .sprites{display: flex;justify-content: space-between;margin-top: 30px;}
